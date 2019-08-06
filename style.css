@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+div {
+	flex-basis: 15%;
+	flex-grow: 1;
+	height: 33.33vh;
+	background-color: darkorange;
+	border: 4px dashed black;
+}
+
+@media (orientation: portrait) {
+	div {
+		flex-basis: 30%;
+		height: 16.66vh;
+	}
+}
+
+
+.soldat {
+	background-color: #1A3913;
+}
+
+.dark {
+	background-color: #1F0A14;
+}
+
+.camel {
+	background-color: #BB7D3E;
+}
+
+.violet {
+	background-color: #501B39;
+}
+
+.weed {
+	background-color: #C2BA47;
+}
+
+
+.lotos {
+	background-color: #CF6EA6;
+}
+
+.seaman {
+	background-color: #224E67;
+}
+
+.island {
+	background-color: #3CA0B4;
+}
+
+.sand {
+	background-color: #E4C8AF;
+}
+
+.off {
+	background-color: black;
+}
+
+.hidden {
+	background-color: darkorange;
+}
